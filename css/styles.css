@@ -11,8 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: var(--backdround-color);
-
+    width: 1440px;
 }
+
+/* Section */
+.section {}
 
 .link {
     text-decoration: none;
@@ -88,6 +91,7 @@ body {
 /* Main section hero */
 .hero {
     background-color: #2E2F42;
+    height: 600px;
 }
 
 .hero-titel {
