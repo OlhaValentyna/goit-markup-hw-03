@@ -39,7 +39,14 @@ body {
 
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
+
+img {
+    display: block;
+}
+
 
 /* LOGO */
 .logo {
@@ -53,6 +60,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 
 }
 
@@ -268,4 +276,27 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color-text);
+}
+
+.section {
+    padding: 120px 156px 120px 156px;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+
+}
+
+.head {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.list-header {
+    display: flex;
+    justify-content: center;
 }
