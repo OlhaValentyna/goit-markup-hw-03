@@ -198,10 +198,11 @@ img {
 }
 
 .team-members {
+    width: calc((100%-72px)/4);
     background: var(--backdround-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100%-72px)/4);
+
 
 }
 
@@ -250,7 +251,7 @@ img {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -390,6 +391,10 @@ ul {
     justify-content: center;
     gap: 24px;
 
+}
+
+.exampe {
+    width: calc((100%-48px)/3);
 }
 
 /* Our Team */
