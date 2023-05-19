@@ -47,11 +47,6 @@ body {
     padding: 0 15px 0 15px;
 }
 
-img {
-    display: block;
-}
-
-
 /* LOGO */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -119,13 +114,9 @@ img {
 .hero {
     background-color: #2E2F42;
     padding: 188px 0;
-
-
 }
 
 .hero-titel {
-
-
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -135,8 +126,6 @@ img {
     margin-top: 68px;
     max-width: 496px;
     text-align: center;
-
-
 }
 
 .hero-btn:hover,
@@ -178,7 +167,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: var(--primary-color-text);
 }
 
@@ -203,8 +191,6 @@ img {
     background: var(--backdround-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-
-
 }
 
 .name-employee {
@@ -237,18 +223,15 @@ img {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-
     margin-bottom: 16px;
-}
-
-.link-footer {
     display: inline-block;
 }
+
+
 
 .logo-footer-part {
     font-family: 'Raleway', sans-serif;
