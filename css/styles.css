@@ -396,10 +396,7 @@ ul {
 }
 
 /* FOOTER */
-.footer-conteiner {
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* PORTOFLIO */
 .filter-btn {
